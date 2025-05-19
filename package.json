@@ -2,12 +2,15 @@
   "name": "dentist-appointment-system-frontend",
   "version": "1.0.0",
   "private": true,
-  "description": "牙医预约系统前端，React + MUI 风格类似 Google Calendar",
+  "homepage": "https://strongBrave.github.io/dentist-appointment-system-frontend",
+  "description": "Dental appointment system frontend, React + MUI style similar to Google Calendar",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -22,6 +25,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "react-scripts": "^5.0.1"
   },
   "browserslist": {
