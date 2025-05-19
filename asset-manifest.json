@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dentist-appointment-system-frontend/static/css/main.60317e47.css",
+    "main.js": "/dentist-appointment-system-frontend/static/js/main.6857e8f7.js",
+    "index.html": "/dentist-appointment-system-frontend/index.html",
+    "main.60317e47.css.map": "/dentist-appointment-system-frontend/static/css/main.60317e47.css.map",
+    "main.6857e8f7.js.map": "/dentist-appointment-system-frontend/static/js/main.6857e8f7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.60317e47.css",
+    "static/js/main.6857e8f7.js"
+  ]
+}
